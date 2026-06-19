@@ -7,8 +7,7 @@ st.set_page_config(page_title="SafeSupport IA", page_icon="🛡️", layout="cen
 # --- NOVO DESIGN E TÍTULO ---
 st.title("🛡️ SafeSupport IA – Triagem e Atendimento")
 st.caption("Sistema inteligente de atendimento integrando Redes Neurais (TensorFlow) e Engenharia de Prompt.")
-st.markdown("<style>div.stButton > button:first-child { background-color: #2E7D32; color: white; }</style>", unsafe_allow_html=True) # Customização do botão para Verde
-st.markdown("---")
+st.html("<style>div.stButton > button:first-child { background-color: #2E7D32 !important; color: white !important; }</style>")st.markdown("---")
 
 # 2. Input do Usuário
 user_input = st.text_area("Descreva o ocorrido ou sua dúvida técnica:", placeholder="Ex: Meu produto veio quebrado! ou Como ligo o aparelho?")
